@@ -71,6 +71,7 @@
     ("zenburn-blue-3"   . "#5C888B")
     ("zenburn-blue-4"   . "#4C7073")
     ("zenburn-blue-5"   . "#366060")
+    ("zenburn-bg-feng"  . "#5a5a5a")
     ("zenburn-magenta"  . "#DC8CC3"))
   "List of Zenburn colors.
 Each element has the form (NAME . HEX).
@@ -158,7 +159,7 @@ Also bind `class' to ((class color) (min-colors 89))."
      ((t (:foreground ,zenburn-green-1
                       :background ,zenburn-bg-05
                       :box (:line-width -1 :style released-button)))))
-   `(region ((,class (:background ,zenburn-bg-1))
+   `(region ((,class (:background ,zenburn-bg-feng))
              (t :inverse-video t)))
    `(secondary-selection ((t (:background ,zenburn-bg+2))))
    `(trailing-whitespace ((t (:background ,zenburn-red))))
