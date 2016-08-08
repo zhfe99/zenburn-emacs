@@ -652,7 +652,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(ivy-remote ((t (:foreground ,zenburn-blue :background ,zenburn-bg))))
    ;; `(ivy-subdir ((t (:foreground ,zenburn-yellow :background ,zenburn-bg))))
    ;; `(ivy-current-match ((t (:foreground ,zenburn-yellow :weight bold :underline t))))
-   `(ivy-current-match ((t (:foreground ,zenburn-yellow :weight bold :background ,zenburn-bg-feng))))
+   `(ivy-current-match ((t (:foreground ,zenburn-yellow :weight bold :underline t))))
    `(ivy-minibuffer-match-face-1 ((t (:background ,zenburn-bg+1))))
    `(ivy-minibuffer-match-face-2 ((t (:background ,zenburn-green-1))))
    `(ivy-minibuffer-match-face-3 ((t (:background ,zenburn-green))))
